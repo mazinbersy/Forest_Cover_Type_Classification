@@ -48,3 +48,8 @@ pip install pandas matplotlib scikit-learn xgboost ucimlrepo numpy
     - ✅ Accuracy score
     - 📊 Confusion matrix
     - 🌟 Feature importance visualization
+
+## 📝 Notes
+- Scaling: Required for Random Forest in this implementation for consistency, but not strictly necessary for tree-based methods.
+- Label Encoding: Needed for XGBoost when dealing with non-zero-based integer class labels.
+- Execution Time: Hyperparameter Tuning for RandomForest and XGBoost can take several hours depending on hardware
